@@ -1,13 +1,13 @@
 
-# RusticahAI: A Spatiotemporal Deep Learning Framework
+# RusticaAI: A Spatiotemporal Deep Learning Framework
 
-RusticahAI is a spatiotemporal deep learning framework on top of PyTorch and [Apache Sedona](https://sedona.apache.org/). It enable spatiotemporal machine learning practitioners to easily and efficiently implement deep learning models targeting the applications of raster imagery datasets and spatiotemporal non-imagery datasets. Deep learning applications of raster imagery datasets include satellite imagery classification and satellite image segmentation. Applications of deep learning on spatiotemporal non-imagery datasets are mainly prediction tasks which include but are not limited to traffic volume and traffic flow prediction, taxi/bike flow/volume prediction, precipitation forecasting, and weather forecasting.
+RusticaAI is a spatiotemporal deep learning framework on top of PyTorch and [Apache Sedona](https://sedona.apache.org/). It enable spatiotemporal machine learning practitioners to easily and efficiently implement deep learning models targeting the applications of raster imagery datasets and spatiotemporal non-imagery datasets. Deep learning applications of raster imagery datasets include satellite imagery classification and satellite image segmentation. Applications of deep learning on spatiotemporal non-imagery datasets are mainly prediction tasks which include but are not limited to traffic volume and traffic flow prediction, taxi/bike flow/volume prediction, precipitation forecasting, and weather forecasting.
 
 
 <img src="https://github.com/wherobots/GeoTorchAI/blob/main/GeoTorchAI_Sigmod_Demo.001.png" class="center" width="80%" align="center">
 
 
-## RusticahAI Modules
+## RusticaAI Modules
 RusticahAI contains various modules for deep learning and data preprocessing in both raster imagery and spatiotemporal non-imagery categories. Deep learning module offers ready-to-use raster and grid datasets, transforms, and neural network models.
 
 <img src="https://github.com/DataSystemsLab/GeoTorchAI/blob/main/data/architecture.png?raw=true" class="center" width="60%" align="right">
@@ -17,12 +17,8 @@ RusticahAI contains various modules for deep learning and data preprocessing in 
 * Transforms: Various tranformations operations that can be applied to dataset samples during model training.
 * Preprocessing: Supports preprocessing of raster imagery and spatiotemporal non-imagery datasets in a scalable setting on top of Apache Spark and Apache Sedona. 
 
-
-## Documentation
-Details documentation on installation, API, and programming guide is available on [GeoTorchAI Website](https://kanchanchy.github.io/geotorchai/).
-
 ## Installation
-RusticahAI can be installed by running the following command:
+RusticaAI can be installed by running the following command:
 ```
 pip install geotorchai
 ```
